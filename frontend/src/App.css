@@ -1,0 +1,467 @@
+button {
+  margin-top: 10px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+#greeting {
+  display: inline-block;
+}
+
+.logout-btn {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+span {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+
+.container1 {
+  width: 50%;
+  margin: auto;
+}
+
+
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+}
+
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+body {
+  /* background-color: rgba(199, 43, 43, 0.788); */
+  background-color: #FFDD00;
+}
+
+.loginPage {
+  width: 30%;
+  margin: auto;
+  padding: 50px;
+  margin-top: 200px;
+  /* background-color: rgb(228, 220, 220); */
+  border-radius: 20px;
+}
+
+.addPage {
+  width: 40%;
+  margin-left: 30%;
+  padding: 50px;
+  margin-top: 20px;
+  /* background-color: rgb(228, 220, 220); */
+  border-radius: 20px;
+}
+
+.loginFrame {
+  border: 3px solid rgb(10, 10, 10);
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+
+}
+
+.addFrame {
+  border: 5px solid rgb(94, 5, 5);
+  padding: 30px;
+  width: 450px;
+  border-radius: 10px;
+
+
+}
+
+.loginHeader {
+  margin-left: 125px;
+  font-weight: bolder;
+  border: 2px solid black;
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.loginText {
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+
+.loginTextP {
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+
+.passLogin {
+  margin-right: 8px;
+}
+
+.notRegister {
+  width: 140px;
+  margin-left: 165px;
+  margin-top: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background-color: black;
+  color: #FFDD00;
+  font-weight: bolder;
+
+}
+
+.userPassLabel {
+  font-weight: bolder;
+}
+
+.signIn {
+  width: 140px;
+  margin-left: 130px;
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background-color: black;
+  color: #FFDD00;
+  font-weight: bolder;
+
+
+}
+
+.signupPage {
+  width: 30%;
+  margin: auto;
+  padding: 50px;
+  margin-top: 50px;
+  /* background-color: rgb(228, 220, 220); */
+  border-radius: 20px;
+}
+
+.signupFrame {
+  border: 2px solid rgb(10, 10, 10);
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+
+}
+
+.signupText {
+  width: 250px;
+  height: 25px;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+
+}
+
+.signUp {
+
+  width: 140px;
+  margin-left: 140px;
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background-color: black;
+  color: #FFDD00;
+  font-weight: bolder;
+
+}
+
+.logIn {
+  width: 140px;
+  margin-left: 170px;
+  margin-top: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background-color: black;
+  color: #FFDD00;
+  font-weight: bolder;
+
+}
+
+.sunmitProduct {
+  width: 180px;
+  margin-left: 140px;
+  margin-top: 40px;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background-color: black;
+  color: #FFDD00;
+  font-weight: bolder;
+}
+
+.deleteAll {
+  width: 180px;
+  margin-left: 140px;
+  margin-top: 40px;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background-color: black;
+  color: #FFDD00;
+  font-weight: bolder;
+}
+
+.signupHeader {
+  margin-left: 130px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.signupTextName {
+  margin-left: 13px;
+}
+
+.signupTextPass {
+  margin-left: 13px;
+}
+
+.signupTextFirst {
+  margin-left: 10px;
+}
+
+.signupTextLast {
+  margin-left: 12px;
+}
+
+.signupTextEmail {
+  margin-left: 11px;
+}
+
+.userN {
+  margin-right: 34px;
+  font-weight: bolder;
+}
+
+.userP {
+  margin-right: 38px;
+  font-weight: bolder;
+}
+
+.userF {
+  margin-right: 30px;
+  font-weight: bolder;
+
+}
+
+.userL {
+  margin-right: 30px;
+  font-weight: bolder;
+}
+
+.userCom {
+  font-weight: bolder;
+}
+
+.userEm {
+  font-weight: bolder;
+}
+
+.contentContiner {
+  margin-top: 50px;
+
+}
+
+.General {
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  list-style: none;
+
+
+}
+
+.content {
+  position: relative;
+  width: 23%;
+  height: 200px;
+  /* background-color: rgb(228, 220, 220); */
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.deleteSpan {
+
+  position: absolute;
+  font-size: 1.2rem;
+  margin: right;
+  border: 1px solid #FFDD00;
+  width: 24px;
+  height: 30px;
+  right: 5%;
+  margin-top: 5px;
+  border-radius: 8px;
+  line-height: 1.9rem;
+  cursor: pointer;
+  background-color: black;
+  color: #FFDD00;
+
+
+}
+
+.addPageProduct {
+  width: 90%;
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.addFrameProduct {
+  border: 3px solid black;
+  padding: 30px;
+  width: 500px;
+  margin-left: 36%;
+  border-radius: 10px;
+
+}
+
+.productDiv {
+  margin-top: 10px;
+}
+
+.Product {
+  height: 25px;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.ProductName {
+  margin-left: 53px;
+}
+
+.ProductNumber {
+  margin-left: 36px;
+}
+
+.ProductDate {
+  margin-left: 69px;
+}
+
+.ProductPrice {
+  margin-left: 55px;
+}
+
+.ProductDescription {
+  border-radius: 4px;
+  margin-left: 13px;
+  border: 2px solid black;
+}
+
+.productLabel {
+  font-weight: bolder;
+}
+
+.submitProduct {
+  width: 180px;
+  margin-left: 155px;
+  margin-top: 40px;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background-color: black;
+  color: #FFDD00;
+  font-weight: bolder;
+}
+
+.deleteAllProduct {
+  width: 180px;
+  margin-left: 47.5%;
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background-color: black;
+  color: #FFDD00;
+  font-weight: bolder;
+}
+
+.grettingProduct {
+  margin-left: 20px;
+  margin-top: 2px;
+  font-size: 1.9rem;
+  font-weight: bolder;
+}
+
+.logoutP {
+  margin-bottom: 10px;
+  margin-left: 90%;
+}
+
+.logoutP1 {
+  width: 100px;
+  margin-left: 95%;
+  background-color: black;
+  color: #FFDD00;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.addNewProduct {
+  margin-left: 42%;
+  border: 2px solid black;
+  width: 350px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.adminbotton{
+  width: 100px;
+  margin-left: 95%;
+  background-color: black;
+  color: #FFDD00;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
